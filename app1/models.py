@@ -1243,6 +1243,8 @@ class itemtable(models.Model):
     amount = models.IntegerField(default='0',blank=True,null=True)
     stock_rate= models.FloatField(default='0.0',blank=True,null=True)#reshna added
     status = models.CharField(max_length=100,null=True)
+    min_stock=models.CharField(max_length=100,null=True,default='0')
+
 
 class unittable(models.Model):
     cid = models.ForeignKey(company, on_delete=models.CASCADE,null=True)

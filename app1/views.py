@@ -33916,7 +33916,7 @@ def create_item2(request):
             itax = request.POST['taxref']
             ipcost = request.POST['pcost']
             iscost = request.POST['salesprice']
-            itmdate = request.POST['itmdate']
+            # itmdate = request.POST['itmdate']
             #itrate = request.POST['tax']
             ipuracc = request.POST['pur_account']
             isalacc = request.POST['sale_account']
